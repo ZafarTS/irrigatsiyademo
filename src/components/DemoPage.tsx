@@ -645,8 +645,36 @@ export function DemoPage() {
               </div>
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                 Loyiha haqida savollaringizga javob beruvchi AI chatbot. Pastki o&apos;ng burchakdagi tugmani bosing. 
-              </p>
-             
+              </p> <
+          export function FloatingChatbotButton() {
+
+  const handleClick = () => {
+    const existing = document.getElementById("x8dzHBOUBuvfXVJ3IX_X_");
+
+    if (!existing) {
+      const script = document.createElement("script");
+      script.src = "https://www.chatbase.co/embed.min.js";
+      script.id = "x8dzHBOUBuvfXVJ3IX_X_";
+      script.dataset.domain = "www.chatbase.co";
+      document.body.appendChild(script);
+
+      script.onload = () => {
+        window.chatbase?.("open");
+      };
+    } else {
+      window.chatbase?.("open");
+    }
+  };
+
+  return (
+    <button
+      onClick={handleClick}
+      className="fixed bottom-6 right-6 bg-green-600 text-white px-4 py-3 rounded-full shadow-lg hover:scale-110 transition"
+    >
+      💬 Chat
+    </button>
+  );
+}
             </div>
 
             {/* API Demo Card */}
