@@ -645,7 +645,7 @@ export function DemoPage() {
               </div>
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                 Loyiha haqida savollaringizga javob beruvchi AI chatbot. Pastki o&apos;ng burchakdagi tugmani bosing. 
-              </p> <
+              </p> 
           export function FloatingChatbotButton() {
 
   const handleClick = () => {
