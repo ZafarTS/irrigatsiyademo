@@ -14,7 +14,7 @@ import { BackToTop } from "./components/BackToTop";
 import { ScrollProgress } from "./components/ScrollProgress";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { DemoPage } from "./components/DemoPage";
-import { FloatingChatbotButton } from "./components/FloatingChatbotButton";
+//import { FloatingChatbotButton } from "./components/FloatingChatbotButton";
 
 // Section divider component
 function SectionDivider() {
