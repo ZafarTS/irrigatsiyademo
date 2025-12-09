@@ -646,7 +646,12 @@ export function DemoPage() {
               <p className="text-gray-600 mb-6 text-lg leading-relaxed">
                 Loyiha haqida savollaringizga javob beruvchi AI chatbot. Pastki o&apos;ng burchakdagi tugmani bosing. 
               </p> 
-  
+  <button
+                onClick={() => setShowChatbot(true)}
+                className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl hover:shadow-lg transition-all text-lg"
+              >
+                Chatbotni ochish
+              </button>
             </div>
 
             {/* API Demo Card */}
